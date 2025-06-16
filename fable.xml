@@ -10,7 +10,7 @@
   <property name="char3" default="0"/>
   <property name="char4" default="0"/> 
 
-  <property name="isCalled" default = "False" />
+  <property name="isCalled" default = "false" />
   <start />
   <middle />
   <ending />
