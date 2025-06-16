@@ -8,6 +8,8 @@
       on_click = "set(isCalled, true)"
       />
 </fab-if>
+  
+<fab-if when="true">
   <agent id="player"
     x="center" 
     y="480"
@@ -15,4 +17,5 @@
     text=""
     color="white" 
     font-size="24" />
+</fab-if>
 </page>
