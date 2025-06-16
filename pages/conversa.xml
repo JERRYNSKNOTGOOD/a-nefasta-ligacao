@@ -35,7 +35,7 @@
     />
 </fab-if>
 
-<fab-if when="$idx > ">
+<fab-if when="$idx > 13 ">
   <agent
  id="next"
   text = "Terminar ligação"
