@@ -1,7 +1,9 @@
 <page id="start" bg_color="black" bg_music="">
   <agent 
     id="nameviewer"
-    x = 
+    x = "0"
+    y= "480 * 0.6"
+    text="Teu nome atual: $name"
     
     />
   <agent
