@@ -1,9 +1,10 @@
-<page id="start" bg_color="black" bg_music="">
+<page id="start" bg_color="blue" bg_music="">
   <agent 
     id="nameviewer"
     x = "0"
     y= "480 * 0.1"
     text="Teu nome atual: $name"
+    color="white"
     
     />
   <agent
@@ -17,6 +18,7 @@
   <agent 
     id="character2"
     text="$alfabeto[$char1]"
+    color="white"
     x= "640 * 0.4"
     y="center"
     font-size= "70"
@@ -25,12 +27,14 @@
     id="character3"
     text="$alfabeto[$char2]"
     x="640 * 0.5"
+    color="white"
     y="center"
     font-size="70"
     />
   <agent 
     id="character4"
     text="$alfabeto[$char3]"
+    color="white"
     x="640 * 0.6"
     y="center"
     font-size="70"
@@ -38,6 +42,7 @@
   <agent 
     id="character5"
     text="$alfabeto[$char4]"
+    color="white"
     x= "640 * 0.7"
     y="center"
     font-size="70"
@@ -60,6 +65,7 @@
   
   <agent
     id="sum0"
+    color="white"
     x="640 * 0.3"
     y="480 * 0.4"
     width="60"
@@ -74,6 +80,7 @@
     y="480 * 0.76"
     text="-"
     on_click = "setIf($char0 > 0, char0, $char0 - 1)"
+    color="white"
     />
 
   <agent 
@@ -83,6 +90,7 @@
     x="640 * 0.4"
     y="480 * 0.4"
     on_click = "setIf($char1 < $lenght, char1, $char1 + 1)"
+    color="white"
     />
   <agent 
     id="sub1"
@@ -91,6 +99,7 @@
     x="640 * 0.4"
     y="480 * 0.76"
     on_click = "setIf($char1 > 0, char1, $char1 - 1)"
+    color="white"
     />
   <agent 
     id="sum2"
@@ -99,6 +108,7 @@
     x="640 * 0.5"
     y="480 * 0.4"
     on_click = "setIf($char2 < $lenght, char2, $char2 + 1)"
+    color="white"
     />
  <agent 
    id="sub2"
@@ -107,6 +117,7 @@
    x="640 * 0.5"
    y="480 * 0.76"
    on_click = "setIf($char2 > 0, char2, $char2 - 1)"
+   color="white"
    />
 <agent 
   id= "sum3"
@@ -115,6 +126,7 @@
   x="640 * 0.6"
   y="480 * 0.4"
   on_click = "setIf($char3 < $lenght, char3, $char3 + 1)"
+  color="white"
   />
 <agent 
   id="sub3"
@@ -123,6 +135,7 @@
   x="640 * 0.6"
   y="480 * 0.76"
   on_click = "setIf($char3 > 0, char3, $char3 - 1)"
+  color="white"
   />
 <agent 
   id="sum4"
@@ -131,6 +144,7 @@
   x="640 * 0.7"
   y="480 * 0.4"
   on_click = "setIf($char4 < $lenght, char4, $char4 + 1)"
+  color="white"
   />
 <agent 
   id="sub4"
@@ -139,12 +153,14 @@
   x="640 * 0.7"
   y="480 * 0.76"
   on_click = "setIf($char4 > 0, char4, $char4 - 1)"
+  color="white"
   />
 
 <agent 
   id="reset"
   text="RESET"
   on_click = "reset()"
+  color="white"
   x= "640 * 0.3"
   y="480"
 />
@@ -154,6 +170,7 @@
   x="640 * 0.3"
   y="480 * 0.2"
   text="tips: Se quiser pôr espaço, é só após a letra Z :3"
+  color="white"
   />
 
 <agent 
