@@ -15,7 +15,10 @@
     font-size="70"
   />
   <agent 
-    
+    id="character2"
+    text="$alfabeto[$char1]"
+    x= "640 * 0.2"
+    y="center"
     />
   <agent
     id="Salvarnomebtn"
