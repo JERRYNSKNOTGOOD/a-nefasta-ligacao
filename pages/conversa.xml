@@ -35,14 +35,15 @@
     />
 </fab-if>
 
-<agent
+<fab-if when="true">
+  <agent
  id="next"
   text = "Terminar ligação"
   x= "640 * 0.8"
   y = "480 * 1"
   on_click = "goToPage('ending')"
   />
-
+</fab-if>
 
 
 
