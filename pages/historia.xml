@@ -14,7 +14,7 @@
     x="center" 
     y="480"
     animation="fade-in"
-    text=""
+    text="TESTEEEE"
     color="white" 
     font-size="24" />
 </fab-if>
