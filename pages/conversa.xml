@@ -7,6 +7,8 @@
     color="black" 
     bg_color="skyblue"
     font-size="24" />
+  
+  <fab-if when="$idx%2 = 0">
   <agent 
     id="placaplayer"
     x="640 * 0.2"
@@ -15,4 +17,5 @@
     color="black"
     text="$conversas[$idx]"
     />
+  </fab-if>
 </page>
