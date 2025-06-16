@@ -44,8 +44,8 @@
   on_click = "goToPage('ending')"
   />
 </fab-if>
-
-
+<fab-if when="$idx < 13">
+</fab-if>
 
 
 
