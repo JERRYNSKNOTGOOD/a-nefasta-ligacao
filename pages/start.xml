@@ -123,8 +123,14 @@
   y="480 * 0.76"
   on_click = "setIf($char3 > 0, char3, $char3 - 1)"
   />
-
-
+<agent 
+  id="sum4"
+  text="+"
+  width="60"
+  x="640 * 0.7"
+  y="480 * 0.4"
+  on_click = "setIf($char4 < 25, char4, $char4 + 1)"
+  />
 
 
 
