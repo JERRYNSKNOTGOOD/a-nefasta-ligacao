@@ -12,7 +12,7 @@
 
   <property name="isCalled" default = "false" />
 
-  <property name="conversas" default='["Alô? quem está falando?", "...", "A-alô?"]' />
+  <property name="conversas" default='["Alô? quem está falando?", "...", "A-alô?", "oi! Gostaria com $name", "não está!", "Como não? estou falando agora com essa pessoa...(riso estridente)"]' />
   <property name="idx" default="0"/>
   <start />
   <middle />
