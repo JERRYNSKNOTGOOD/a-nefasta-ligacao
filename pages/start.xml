@@ -72,7 +72,7 @@
     x="640 * 0.3"
     y="480 * 0.76"
     text="-"
-    
+    on_click = "set(char0, $char0 - 1)"
     />
   
 </fab-if>
