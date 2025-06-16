@@ -42,6 +42,8 @@
     y="center"
     font-size="70"
     />
+  <agent 
+    />
   <agent
     id="Salvarnomebtn"
     text="Salvar nome"
