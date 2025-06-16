@@ -80,7 +80,9 @@
     id="sum1"
     text="+"
     width="60"
-    x="640 "
+    x="640 * 0.4"
+    y="480 * 0.4"
+    on_click = "set(char1, $char1 + 1)"
     />
   
 </fab-if>
