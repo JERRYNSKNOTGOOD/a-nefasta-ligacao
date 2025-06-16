@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="set(char0, $char0 + 1); set(name, $alfabeto[char0])"
+    on_click="set(char0, $char0 + 1); set(name, '$alfabeto[char0]')"
   />
 </page>
