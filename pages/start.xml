@@ -81,7 +81,7 @@
     width="60"
     x="640 * 0.4"
     y="480 * 0.4"
-    on_click = "setIf($char1 < 25, char1, $char1 + 1)"
+    on_click = "setIf($char1 < $lenght, char1, $char1 + 1)"
     />
   <agent 
     id="sub1"
@@ -97,7 +97,7 @@
     width="60"
     x="640 * 0.5"
     y="480 * 0.4"
-    on_click = "setIf($char2 < 25, char2, $char2 + 1)"
+    on_click = "setIf($char2 < $lenght, char2, $char2 + 1)"
     />
  <agent 
    id="sub2"
@@ -105,7 +105,7 @@
    width="60"
    x="640 * 0.5"
    y="480 * 0.76"
-   on_click = "setIf($char2, char2, $char2 - 1)"
+   on_click = "setIf($char2 > 0, char2, $char2 - 1)"
    />
 <agent 
   id= "sum3"
@@ -113,7 +113,7 @@
   width = "60"
   x="640 * 0.6"
   y="480 * 0.4"
-  on_click = "setIf($char3 < 25, char3, $char3 + 1)"
+  on_click = "setIf($char3 < $lenght, char3, $char3 + 1)"
   />
 <agent 
   id="sub3"
@@ -129,7 +129,7 @@
   width="60"
   x="640 * 0.7"
   y="480 * 0.4"
-  on_click = "setIf($char4 < 25, char4, $char4 + 1)"
+  on_click = "setIf($char4 < $lenght, char4, $char4 + 1)"
   />
 <agent 
   id="sub4"
