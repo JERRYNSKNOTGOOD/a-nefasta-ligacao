@@ -1,4 +1,4 @@
-<page id="historia" bg_color="black">
+<page id="historia" bg_color="black" bg_music = "chamada.mp3" >
   <fab-if when="$isCalled = false">
     <agent 
       id="cellphone"
