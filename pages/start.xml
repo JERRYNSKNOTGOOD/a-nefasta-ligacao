@@ -155,7 +155,13 @@
   text="tips: Se quiser pôr espaço, é só após a letra Z :3"
   />
 
-
+<agent 
+  id="question"
+  x="640 * 0.3"
+  y=""
+  text="Qual o teu nome?"
+  font-size="50"
+  />
   
 
 
