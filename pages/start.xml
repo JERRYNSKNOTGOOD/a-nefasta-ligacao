@@ -55,12 +55,14 @@
     x=""
     on_click="set(name, $alfabeto[$char0] + $alfabeto[$char1] + $alfabeto[$char2] + $alfabeto[$char3] + $alfabeto[$char4])"
   />
+
+  
   <agent
     id="sum0"
     x="640 * 0.3"
     y="480 * 0.4"
     width="60"
-    on_click = "set(char0, $char0 + 1)"
+    on_click = "setIf($char0 < 25, char0, $char0 + 1)"
     text="+"
     />
 
