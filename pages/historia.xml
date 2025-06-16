@@ -1,8 +1,9 @@
 <page id="historia" bg_color="black">
   <agent id="Monologue"
     x="center" 
-    y="center" 
-    text="o meu nome é $name"
+    y="480"
+    animation="fade-in"
+    text="Eu morri."
     color="white" 
     font-size="24" />
 </page>
