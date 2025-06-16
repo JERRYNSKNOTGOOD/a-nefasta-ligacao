@@ -89,6 +89,7 @@
     width="60"
     x="640 * 0.4"
     y="480 * 0.76"
+    on_click = "setIf($char1 > 0, char1, $char1 - 1)"
     />
   <agent 
     id="sum2"
