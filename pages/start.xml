@@ -1,6 +1,6 @@
 <page id="start" bg_color="black" bg_music="">
   <agent
-    id="teste"
+    id="chararacter1"
     text="$alfabeto[$char0]$alfabeto[$char0 + 1]. $name"
     color="white"
     x="center"
