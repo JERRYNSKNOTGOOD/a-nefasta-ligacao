@@ -12,7 +12,7 @@
 
   <property name="isCalled" default = "false" />
 
-  <property name="conversas" default='["Alô? quem está falando?", "...", "A-alô?", "Oi! Eu gostaria de falar com $name", "Não está no momento!", "...", "...", "Mentir é feio, $name", "...", "Você sabe muito o que acontecerá com você, $name. Teu tempo na Terra está acabando... logo, logo encontrarás o Diabo de braços abertos no grande mar de lava.", "Espe-", "Tarde demais, $name! Tua alma já foi entregue a nós, tudo por algumas toneladas de dinheiro, prazer e diversão. Prepare-se. ", "Não! Eu me arrependi pelos meus pecados, por favor, Deus! Deus! Deus!", "$name... Ele está aí...", "O- O que é isso? Fica lomge de mim! Por favor! E-eu tenhi muito dinheiro! Espera! Socorro! Socorr-"]' />
+  <property name="conversas" default='["Alô? quem está falando?", "...", "A-alô?", "Oi! Eu gostaria de falar com $name", "Não está no momento!", "...", "...", "Mentir é feio, $name", "...", "Você sabe muito bem o que acontecerá contigo, $name. Teu tempo na Terra está acabando... logo, logo encontrarás o Diabo de braços abertos no grande mar de lava.", "Espe-", "Tarde demais, $name! Tua alma já foi entregue para nós, tudo por algumas toneladas de dinheiro, prazer e diversão. Prepare-se. ", "Não! Eu me arrependi pelos meus pecados, por favor, Deus! Deus! Deus!", "$name... Ele está aí...", "O- O que é isso? Fica longe de mim! Por favor! E-eu tenho muito dinheiro! Espera! Socorro! Socorr-"]' />
   <property name="idx" default="0"/>
   <start />
   <middle />
@@ -20,6 +20,12 @@
   <historia/>
   <conversa/>
 
+
+
+
+
+
+  
 
 
 
