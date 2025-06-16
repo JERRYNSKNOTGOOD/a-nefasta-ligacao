@@ -1,6 +1,6 @@
 <fable>
   <config font-family="" />
-
+  <property name="name" default=""/>
   <property name="alfabeto" default='["a", "b", "c", "d"]' />
   <property name="char0" default="0" />
   <property name="char1" default="0"/>
