@@ -90,6 +90,14 @@
 </fab-if>
   
 <fab-if when="$char2 < 25">
+  <agent 
+    id="sum2"
+    text="+"
+    width="60"
+    x="640 * 0.5"
+    y="480 * 0.4"
+    
+    />
 </fab-if>
 <fab-if when="$char2 > 0">
 </fab-if>
