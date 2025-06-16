@@ -60,6 +60,7 @@
     id="sum0"
     x="640 * 0.3"
     y="480 * 0.4"
+    width="60"
     on_click = "set(char0, $char0 + 1)"
     text="+"
     />
