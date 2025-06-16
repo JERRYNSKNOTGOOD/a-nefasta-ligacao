@@ -43,6 +43,9 @@
     font-size="70"
     />
   <agent 
+    id="play"
+    x="640"
+    y="480"
     />
   <agent
     id="Salvarnomebtn"
