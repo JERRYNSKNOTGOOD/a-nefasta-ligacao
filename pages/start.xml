@@ -2,7 +2,7 @@
   <agent 
     id="nameviewer"
     x = "0"
-    y= "480 * 0.6"
+    y= "480 * 0.1"
     text="Teu nome atual: $name"
     
     />
