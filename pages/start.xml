@@ -46,6 +46,7 @@
     id="play"
     x="640"
     y="480"
+    text="PLAY"
     />
   <agent
     id="Salvarnomebtn"
