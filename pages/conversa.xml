@@ -1,3 +1,10 @@
 <page id="conversa" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página conversa" color="white" font-size="24" />
+  <agent 
+    id="playername" 
+    x="640 * 0.2" 
+    y="480 * 0.2" 
+    text="$name" 
+    color="black" 
+    bg_color="skyblue"
+    font-size="24" />
 </page>
