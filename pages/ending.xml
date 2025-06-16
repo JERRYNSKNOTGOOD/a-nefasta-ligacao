@@ -1,7 +1,7 @@
 <page id="ending" bg_color="darkred" bg_music="">
   <agent
     id="msgfinal"
-    text="Hello World Ending"
+    text="$name teve seu corpo aniquilado pelos caēs do inferno, não sobrou nada. Felizmente, havia um destino pior lhe aguardando no Xeol: uma eterna tortura com as piores formas de sofrer já imaginadas. Iam desde arrancar o mindinho da mào e introduzir um metal liquido fervente a expor o próproo cérebro e come-lo com larvas demoníacas. $name não era santo, swcrificou tudo que tinha, os amigos, a família e seus filhos pelo dinheiro... Seu castigo é carregar dinheiro sujo dentro da barriga e vomita-lo constantemente enquanto sofre no Inferno."
     color="white"
     x="center"
     y="center"
