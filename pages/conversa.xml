@@ -7,4 +7,8 @@
     color="black" 
     bg_color="skyblue"
     font-size="24" />
+  <agent 
+    id="placaplayer"
+    x=""
+    />
 </page>
