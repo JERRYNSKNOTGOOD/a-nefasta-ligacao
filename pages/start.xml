@@ -140,7 +140,13 @@
   on_click = "setIf($char4 > 0, char4, $char4 - 1)"
   />
 
-
+<agent 
+  id="reset"
+  text="RESET"
+  on_click = "reset()"
+  x= "640 * 0.3"
+  y="480"
+/>
 
 
 
