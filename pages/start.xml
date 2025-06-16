@@ -9,7 +9,7 @@
   />
 
   <agent
-    id="next_page_text"
+    id="Salvarnomebtn"
     text="Proxima Pagina"
     animation="glitch"
     y="480"
