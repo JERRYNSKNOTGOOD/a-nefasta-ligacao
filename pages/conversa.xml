@@ -38,7 +38,8 @@
 <agent
  id="next"
   text = "Terminar ligação"
-  x= ""  
+  x= "640 * 1"
+  y = "480 * 0.7"
   />
 
 
