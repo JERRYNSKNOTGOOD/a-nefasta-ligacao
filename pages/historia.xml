@@ -1,3 +1,8 @@
 <page id="historia" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página historia" color="white" font-size="24" />
+  <agent id="Monologue"
+    x="center" 
+    y="center" 
+    text="o meu nome é $name"
+    color="white" 
+    font-size="24" />
 </page>
