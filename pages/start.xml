@@ -1,4 +1,4 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="">
+<page id="start" bg_color="black" bg_music="">
   <agent
     id="teste"
     text="$alfabeto[$char0]$alfabeto[$char0 + 1]"
