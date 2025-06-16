@@ -19,7 +19,7 @@
     text="$conversas[$idx]"
     />
   </fab-if>
-<fab-if when="$idx%2 != 0">
+<fab-if when="$idx%2 = 0">
   <agent 
     id="placaenemy"
     x="640 * 0.2"
