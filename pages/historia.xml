@@ -5,7 +5,7 @@
       x="center"
       y="center"
       text="LIGAR"
-      on_click = "set(isCalled, true); playSound('osts-fear.mp3')"
+      on_click = "set(isCalled, true)"
       />
 </fab-if>
   <agent id="player"
