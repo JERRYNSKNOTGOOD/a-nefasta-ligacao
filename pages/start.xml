@@ -35,6 +35,13 @@
     y="center"
     font-size="70"
     />
+  <agent 
+    id="character5"
+    text="$alfabeto[$char4]"
+    x= "640 * 0.5"
+    y="center"
+    font-size="70"
+    />
   <agent
     id="Salvarnomebtn"
     text="Salvar nome"
