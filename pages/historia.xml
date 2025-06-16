@@ -1,9 +1,9 @@
 <page id="historia" bg_color="black">
-  <agent id="Monologue"
+  <agent id="player"
     x="center" 
     y="480"
     animation="fade-in"
-    text="Eu morri."
+    text=""
     color="white" 
     font-size="24" />
 </page>
