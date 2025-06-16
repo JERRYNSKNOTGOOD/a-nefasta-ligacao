@@ -105,7 +105,7 @@
    width="60"
    x="640 * 0.5"
    y="480 * 0.76"
-   
+   on_click = "setIf($char2, char2, $char2 - 1)"
    />
 
 
