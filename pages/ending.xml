@@ -11,7 +11,7 @@
   <agent
     id="next_page_text"
     text="Primeira Pagina"
-    y="480"
+    y="540"
     x="center"
     on_click="reset()"
   />
