@@ -24,6 +24,8 @@
   <agent
     id="character3"
     text="$alfabeto[$char2]"
+    x="640 * 0.3"
+    y="center"
     />
   <agent
     id="Salvarnomebtn"
