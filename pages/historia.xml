@@ -6,7 +6,7 @@
       y="center"
       text="LIGAR"
       image="call.png"
-      on_click = "set(isCalled, true)"
+      on_click = "goToPage('conversa')"
       />
 </fab-if>
   
