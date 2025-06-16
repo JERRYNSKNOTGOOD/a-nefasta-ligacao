@@ -5,6 +5,9 @@
   <property name="alfabeto" default='["a", "b", "c", "d"]' />
   <property name="char0" default="0" />
   <property name="char1" default="0"/>
+  <property name="char2" default="0"/>
+  <property name="char3" default="0"/>
+  <property name="char4" default="0"/> 
 
   <start />
   <middle />
