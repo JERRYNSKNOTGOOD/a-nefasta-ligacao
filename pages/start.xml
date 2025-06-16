@@ -10,10 +10,10 @@
 
   <agent
     id="Salvarnomebtn"
-    text="Proxima Pagina"
+    text="Salvar nome"
     animation="glitch"
     y="480"
-    x="640"
+    x=""
     on_click="set(char0, $char0 + 1); set(name, $alfabeto[$char0] + $alfabeto[$char0+1])"
   />
 </page>
