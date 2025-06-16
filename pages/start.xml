@@ -89,7 +89,7 @@
     width="60"
     x="640 * 0.5"
     y="480 * 0.4"
-    on_click = "set(char2, $char2 + 1); setIf(${condicao}, ${nome}, ${valor})"
+    on_click = "setIf($char2, char2, $char2 + 1)"
     />
 
 
