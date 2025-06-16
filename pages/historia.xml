@@ -1,4 +1,13 @@
 <page id="historia" bg_color="black">
+  <fab-if when="isCalled = False">
+    <agent 
+      id="cellphone"
+      x="center"
+      y="center"
+      text="LIGAR"
+      on_click = "set(isCalled, True)"
+      />
+</fab-if>
   <agent id="player"
     x="center" 
     y="480"
