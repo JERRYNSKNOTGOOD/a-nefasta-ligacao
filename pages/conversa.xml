@@ -35,7 +35,11 @@
     />
 </fab-if>
 
-
+<agent
+ id="next"
+  text = "Terminar ligação"
+  x= ""  
+  />
 
 
 
