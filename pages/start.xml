@@ -75,6 +75,38 @@
     on_click = "set(char0, $char0 - 1)"
     />
 </fab-if>
+<fab-if when="$char1 < 25">
+  <agent 
+    id="sum1"
+    text="+"
+    width="60"
+    x="640 "
+    />
+  
+</fab-if>
+<fab-if when="$char1 > 0">
+</fab-if>
+  
+<fab-if when="$char2 < 25">
+</fab-if>
+<fab-if when="$char2 > 0">
+</fab-if>
+
+<fab-if when="$char3 < 25">
+</fab-if>
+<fab-if when="$char3 > 0">
+</fab-if>
+  
+<fab-if when="$char4 < 25">
+</fab-if>
+<fab-if when="$char4 > 0">
+</fab-if>
+
+
+
+
+
+
 
 
 
@@ -83,11 +115,6 @@
 
 
   
-
-
-
-
-
 
 
   
