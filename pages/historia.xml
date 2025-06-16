@@ -10,12 +10,5 @@
       />
 </fab-if>
   
-<fab-if when="$isCalled = true">
-  <agent id="player"
-    x="center" 
-    y="480"
-    text="TESTEEEE"
-    color="white" 
-    font-size="24" />
-</fab-if>
+
 </page>
