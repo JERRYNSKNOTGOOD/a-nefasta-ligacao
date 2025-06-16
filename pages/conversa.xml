@@ -6,7 +6,6 @@
     text="$name" 
     color="white" 
     bg_color="blue"
-    on_click="set(idx, $idx + 1)"
     font-size="24" />
   
   <fab-if when="$idx%2 = 0">    
