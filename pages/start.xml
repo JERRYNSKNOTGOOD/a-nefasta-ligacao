@@ -96,7 +96,7 @@
     width="60"
     x="640 * 0.5"
     y="480 * 0.4"
-    
+    on_click = "set(char2, $char2 + 1)"
     />
 </fab-if>
 <fab-if when="$char2 > 0">
