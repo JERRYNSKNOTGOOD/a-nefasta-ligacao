@@ -20,7 +20,7 @@
     text="Salvar nome"
     y="480"
     x=""
-    on_click="set(char0, $char0 + 1); set(name, $alfabeto[$char0])"
+    on_click="set(name, $alfabeto[$char0])"
   />
 
 
