@@ -65,11 +65,12 @@
     text="+"
     />
 </fab-if>
-<fab-if when="$char0 > 0">
+<fab-if when="$char0 >= 0">
   <agent 
     id="sub0"
-    x="640 * 0.4"
-    y="480 * 0.8"
+    width="60"
+    x="640 * 0.3"
+    y="480 * 0.76"
     text="-"
     
     />
