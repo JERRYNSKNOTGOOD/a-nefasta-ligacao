@@ -1,8 +1,9 @@
 <fable>
   <config font-family="" />
 
-  <property name="pontuacao" default="0" />
-  <property name="visitante" default="Aventureiro" />
+  <property name="alfabeto" default='["a", "b", "c", "d"]' />
+  <property name="char0" default="0" />
+  <property name="char1" default="0"/>
 
   <start />
   <middle />
