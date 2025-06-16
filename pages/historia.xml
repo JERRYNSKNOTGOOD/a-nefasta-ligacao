@@ -13,7 +13,6 @@
   <agent id="player"
     x="center" 
     y="480"
-    animation="fade-in"
     text="TESTEEEE"
     color="white" 
     font-size="24" />
