@@ -55,7 +55,6 @@
     x=""
     on_click="set(name, $alfabeto[$char0] + $alfabeto[$char1] + $alfabeto[$char2] + $alfabeto[$char3] + $alfabeto[$char4])"
   />
-<fab-if when="$char0 < 25">
   <agent
     id="sum0"
     x="640 * 0.3"
@@ -64,8 +63,7 @@
     on_click = "set(char0, $char0 + 1)"
     text="+"
     />
-</fab-if>
-<fab-if when="$char0 > 0">
+
   <agent 
     id="sub0"
     width="60"
@@ -74,8 +72,7 @@
     text="-"
     on_click = "set(char0, $char0 - 1)"
     />
-</fab-if>
-<fab-if when="$char1 < 25">
+
   <agent 
     id="sum1"
     text="+"
@@ -84,34 +81,14 @@
     y="480 * 0.4"
     on_click = "set(char1, $char1 + 1)"
     />
-  
-</fab-if>
-<fab-if when="$char1 > 0">
-</fab-if>
-  
-<fab-if when="$char2 < 25">
   <agent 
     id="sum2"
     text="+"
     width="60"
     x="640 * 0.5"
     y="480 * 0.4"
-    on_click = "set(char2, $char2 + 1)"
+    on_click = "set(char2, $char2 + 1); setIf(${condicao}, ${nome}, ${valor})"
     />
-</fab-if>
-<fab-if when="$char2 > 0">
-</fab-if>
-
-<fab-if when="$char3 < 25">
-  
-</fab-if>
-<fab-if when="$char3 > 0">
-</fab-if>
-  
-<fab-if when="$char4 < 25">
-</fab-if>
-<fab-if when="$char4 > 0">
-</fab-if>
 
 
 
