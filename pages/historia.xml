@@ -1,5 +1,5 @@
 <page id="historia" bg_color="black">
-  <fab-if when="$isCalled">
+  <fab-if when="$isCalled = false">
     <agent 
       id="cellphone"
       x="center"
