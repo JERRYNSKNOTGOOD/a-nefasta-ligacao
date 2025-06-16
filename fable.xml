@@ -13,6 +13,7 @@
   <property name="isCalled" default = "false" />
 
   <property name="conversas" default='["teste"]' />
+  <property name="idx" default="0"/>
   <start />
   <middle />
   <ending />
