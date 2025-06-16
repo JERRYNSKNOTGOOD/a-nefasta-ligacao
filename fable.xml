@@ -12,7 +12,7 @@
 
   <property name="isCalled" default = "false" />
 
-  <property name="conversas" default='["teste"]' 
+  <property name="conversas" default='["teste"]' />
   <start />
   <middle />
   <ending />
