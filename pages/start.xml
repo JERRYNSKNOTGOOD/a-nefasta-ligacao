@@ -62,7 +62,7 @@
     x="640 * 0.3"
     y="480 * 0.4"
     width="60"
-    on_click = "setIf($char0 <= 3, char0, 1)"
+    on_click = ""
     text="+"
     />
 
