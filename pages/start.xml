@@ -10,35 +10,35 @@
     id="chararacter1"
     text="$alfabeto[$char0]"
     color="white"
-    x="640 * 0.1"
+    x="640 * 0.3"
     y="center"
     font-size="70"
   />
   <agent 
     id="character2"
     text="$alfabeto[$char1]"
-    x= "640 * 0.2"
+    x= "640 * 0.4"
     y="center"
     font-size= "70"
     />
   <agent
     id="character3"
     text="$alfabeto[$char2]"
-    x="640 * 0.3"
+    x="640 * 0.5"
     y="center"
     font-size="70"
     />
   <agent 
     id="character4"
     text="$alfabeto[$char3]"
-    x="640 * 0.4"
+    x="640 * 0.6"
     y="center"
     font-size="70"
     />
   <agent 
     id="character5"
     text="$alfabeto[$char4]"
-    x= "640 * 0.5"
+    x= "640 * 0.7"
     y="center"
     font-size="70"
     />
