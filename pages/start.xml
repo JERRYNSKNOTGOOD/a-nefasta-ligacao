@@ -115,7 +115,11 @@
   y="480 * 0.4"
   on_click = "setIf($char3 < 25, char3, $char3 + 1)"
   />
-
+<agent 
+  id="sub3"
+  text="-"
+  width="60"
+  />
 
 
 
