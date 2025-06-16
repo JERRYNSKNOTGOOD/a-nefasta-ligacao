@@ -45,6 +45,13 @@
   />
 </fab-if>
 <fab-if when="$idx < 13">
+  <agent 
+
+    id="nextconv"
+    x="640*0.8"
+    y="480"
+    text="PROXIMA FALA"
+    />
 </fab-if>
 
 
